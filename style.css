@@ -1,0 +1,85 @@
+/* Nicolas CSS Style */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Body background and centering */
+body {
+    background-color: hsl(0, 0%, 8%);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+/* Profile card */
+.profile-card {
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 15px;
+    padding: 40px 30px;
+    width: 320px;
+    text-align: center;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Profile image */
+.profile-card img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+/* Name styling */
+.profile-card h1 {
+    font-size: 22px;
+    margin-bottom: 8px;
+}
+
+/* Location styling */
+.profile-card h2 {
+    font-size: 14px;
+    color: hsl(75, 94%, 57%);
+    margin-bottom: 20px;
+}
+
+/* Bio styling */
+.profile-card p {
+    font-size: 14px;
+    color: hsl(0, 0%, 70%);
+    margin-bottom: 25px;
+}
+
+/* Social buttons */
+.profile-card .social-link {
+    background-color: hsl(0, 0%, 20%);
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    transition: background 0.3s;
+}
+
+.profile-card .social-link:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 8%);
+}
+
+/* Attribution styling */
+.attribution {
+    font-size: 11px;
+    color: hsl(0, 0%, 70%);
+    text-align: center;
+    margin-top: 20px;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
